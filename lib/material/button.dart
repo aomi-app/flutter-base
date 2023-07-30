@@ -41,7 +41,7 @@ class Button extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var button = const SizedBox.shrink();
+    Widget button = const SizedBox.shrink();
     switch (type) {
       case Type.text:
         button = _buildText();
